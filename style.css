@@ -12,21 +12,33 @@ html {
 	-o-background-size: cover;
 	background-size: cover;
 	color: white;
+	font-family: "Roboto Mono", monospace;
 }
 
-main {
-	height: 100%;
+.page-container {
+	display: grid;
+	min-height: 100vh;
+	justify-content: space-evenly;
 }
 
-header {
-	/* line-height: 0.5rem !important; */
+.icon-container {
+	margin: 20px 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
 }
 
-/* #volume {
-	background: url(/images/home-hero.PNG);
+.icon {
+	font-size: 4rem;
+	flex-direction: row;
+	color: #58d7de;
+}
+
+#volume {
+	background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(/images/home-hero.PNG);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 	background-position: center;
-} */
+}
