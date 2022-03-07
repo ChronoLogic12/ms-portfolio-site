@@ -3,4 +3,10 @@ $(document).ready(function () {
 		fullWidth: true,
 		indicators: true,
 	});
+	$("#right").click(function (e) {
+		$(".carousel").carousel("next");
+	});
+	$("#left").click(function (e) {
+		$(".carousel").carousel("prev");
+	});
 });
