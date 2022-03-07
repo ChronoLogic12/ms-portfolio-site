@@ -4,6 +4,7 @@
 	--palette-color3: #58d7de;
 	--palette-color4: #fbb3f1;
 	--palette-color5: #00f7ff;
+	--palette-color6: #ffc400;
 }
 
 /* ffb300 */
@@ -43,8 +44,8 @@ html {
 .icon {
 	font-size: 6rem;
 	flex-direction: row;
-	color: var(--palette-color5);
-	filter: drop-shadow(2px 2px 2px rgb(0, 0, 0));
+	color: var(--palette-color6);
+	filter: drop-shadow(2px 2px 2px black);
 }
 
 .icon:hover {
@@ -53,7 +54,7 @@ html {
 }
 
 .site-links {
-	padding-top: 20px;
+	padding-top: 60px;
 	display: flex;
 	justify-content: center;
 }
@@ -68,7 +69,7 @@ html {
 	flex-direction: row;
 	width: 100%;
 	height: 100%;
-	padding: 10px;
+	padding: 20px;
 }
 
 #left {
@@ -96,7 +97,7 @@ html {
 }
 
 #volume {
-	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.25)), url(/images/volume.PNG);
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/images/volume.PNG);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -105,7 +106,16 @@ html {
 }
 
 #spaceman {
-	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.25)), url(/images/spaceman.png);
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/images/spaceman.png);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center;
+}
+
+#bookmarks {
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/images/bookmarks.PNG);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
