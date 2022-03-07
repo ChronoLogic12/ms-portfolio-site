@@ -6,6 +6,11 @@
 	--palette-color5: #00f7ff;
 	--palette-color6: #ffc400;
 }
+h2 {
+	font-size: 3.56rem !important;
+	line-height: 110% !important;
+	margin: 2.3733333333rem 0 1.424rem 0 !important;
+}
 
 /* ffb300 */
 .text-shadow {
@@ -97,7 +102,7 @@ html {
 }
 
 #volume {
-	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/images/volume.PNG);
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/volume.PNG);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -106,7 +111,7 @@ html {
 }
 
 #spaceman {
-	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/images/spaceman.png);
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/spaceman.png);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -115,7 +120,25 @@ html {
 }
 
 #bookmarks {
-	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/images/bookmarks.PNG);
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/bookmarks.PNG);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center;
+}
+
+#lightup {
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/lightup.PNG);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center;
+}
+
+#tic-tac-toe {
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/tic-tac-toe.PNG);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
