@@ -53,6 +53,22 @@ html {
 	filter: drop-shadow(2px 2px 2px black);
 }
 
+/* modal */
+
+.modal {
+	height: 70vh;
+}
+
+.modal-close {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+.modal-close .icon {
+	font-size: 2rem;
+}
+
 .link {
 	color: var(--palette-color6);
 	display: flex;

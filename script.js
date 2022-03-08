@@ -9,4 +9,5 @@ $(document).ready(function () {
 	$("#left").click(function (e) {
 		$(".carousel").carousel("prev");
 	});
+	$(".modal").modal();
 });
