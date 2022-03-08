@@ -69,6 +69,10 @@ html {
 	font-size: 2rem;
 }
 
+.portfolio-header {
+	margin-top: 0 !important;
+}
+
 .link {
 	color: var(--palette-color6);
 	display: flex;
