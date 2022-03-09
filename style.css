@@ -184,3 +184,12 @@ html {
 	background-size: cover;
 	background-position: center;
 }
+
+#green-lawns {
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/green-lawns.png);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center;
+}
