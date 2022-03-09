@@ -13,7 +13,6 @@ h2 {
 	margin: 2.3733333333rem 0 1.424rem 0 !important;
 }
 
-/* ffb300 */
 .text-shadow {
 	text-shadow: 3px 3px 5px rgb(0, 0, 0);
 }
@@ -28,13 +27,20 @@ html {
 	font-family: "Roboto Mono", monospace;
 }
 
+header {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
 .page-container {
 	display: grid;
-	min-height: 100vh;
+	grid-template-rows: 1fr 2fr;
+	height: 100vh;
 }
 
 .icons-banner {
-	margin: 40px 0 0 0;
+	margin: 20px 0 20px 0;
 	width: 100%;
 	display: flex;
 	justify-content: space-evenly;
@@ -74,6 +80,12 @@ html {
 	margin-top: 0 !important;
 }
 
+.slide-header {
+	width: 100%;
+	text-align: center;
+	position: absolute;
+}
+
 .link {
 	color: var(--palette-color6);
 	display: flex;
@@ -92,13 +104,14 @@ html {
 }
 
 .carousel {
-	min-height: 450px;
+	height: 80% !important;
 }
 
 .site-links {
-	padding-top: 60px;
+	height: 100%;
 	display: flex;
 	justify-content: center;
+	align-items: center;
 }
 
 .spacer {
