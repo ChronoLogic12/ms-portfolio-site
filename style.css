@@ -63,7 +63,7 @@ header {
 /* modal */
 
 .modal {
-	height: 70vh;
+	border-radius: 5px;
 }
 
 .modal-close {
@@ -105,6 +105,7 @@ header {
 
 .carousel {
 	height: 80% !important;
+	border-radius: 5px;
 }
 
 .site-links {
@@ -205,4 +206,30 @@ header {
 	-o-background-size: cover;
 	background-size: cover;
 	background-position: center;
+}
+
+/* media queries */
+
+@media only screen and (max-width: 550px) {
+	h1 {
+		font-size: 3rem;
+	}
+
+	.slide-header {
+		font-size: 3rem !important;
+	}
+
+	.icon {
+		font-size: 5rem;
+	}
+}
+
+@media only screen and (max-width: 550px) {
+	.slide-header {
+		font-size: 2.5rem !important;
+	}
+
+	.icon {
+		font-size: 4rem;
+	}
 }
