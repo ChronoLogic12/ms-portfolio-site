@@ -66,6 +66,7 @@ header {
 
 .modal {
 	border-radius: 5px;
+	min-height: 80vh;
 }
 
 .modal-close {
@@ -75,7 +76,7 @@ header {
 }
 
 .modal-close .icon {
-	font-size: 2rem;
+	font-size: 2.5rem;
 }
 
 .portfolio-header {
@@ -161,7 +162,7 @@ header {
 /* carousel slide backgrounds */
 
 #volume {
-	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/volume.PNG);
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/volume.webp);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -170,7 +171,7 @@ header {
 }
 
 #spaceman {
-	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/spaceman.png);
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/spaceman.webp);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -179,7 +180,7 @@ header {
 }
 
 #bookmarks {
-	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/bookmarks.PNG);
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/bookmarks.webp);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -188,7 +189,7 @@ header {
 }
 
 #lightup {
-	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/lightup.PNG);
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/lightup.webp);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -197,7 +198,7 @@ header {
 }
 
 #tic-tac-toe {
-	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/tic-tac-toe.PNG);
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/tic-tac-toe.webp);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -206,7 +207,7 @@ header {
 }
 
 #green-lawns {
-	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/green-lawns.png);
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/green-lawns.webp);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -230,13 +231,21 @@ header {
 	}
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 450px) {
 	.slide-header {
 		font-size: 2.5rem !important;
 	}
 
 	.icon {
 		font-size: 4rem;
+	}
+
+	.modal-close .icon {
+		font-size: 2rem;
+	}
+
+	.spacer {
+		width: 20px;
 	}
 }
 
@@ -247,5 +256,28 @@ header {
 
 	.tech-icons-container .icon {
 		font-size: 3rem;
+	}
+}
+
+@media only screen and (max-width: 375px) {
+	.icon {
+		font-size: 3rem;
+	}
+
+	h6 {
+		font-size: 1rem;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	/* .site-links {
+		flex-direction: column;
+	} */
+
+	.controls {
+		padding: 5px;
+	}
+	.slide-header {
+		margin-top: 10px !important;
 	}
 }
