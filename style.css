@@ -279,12 +279,20 @@ header {
 }
 
 @media only screen and (max-width: 320px) {
-	/* .site-links {
-		flex-direction: column;
-	} */
-
 	.controls {
 		padding: 5px;
+	}
+	.slide-header {
+		margin-top: 10px !important;
+	}
+}
+
+@media only screen and (max-height: 680px) {
+	.icons-banner {
+		margin: 0px 0;
+	}
+	.portfolio-header {
+		margin-bottom: 0.5rem !important;
 	}
 	.slide-header {
 		margin-top: 10px !important;
