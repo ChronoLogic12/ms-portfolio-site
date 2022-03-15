@@ -60,5 +60,5 @@ Full deployment details and options [here](https://docs.netlify.com/site-deploys
 
 ### Media
 
-- The background image was created using [Haikai](https://app.haikei.app/).
+- The background image was created using [Haikei](https://app.haikei.app/).
 - Wolf logo was created me me with [Adobe Photoshop](https://www.adobe.com/uk/products/photoshop.html).
