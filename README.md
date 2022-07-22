@@ -1,7 +1,7 @@
 # Matthew Suttie - Portfolio website
 
 <p align="center">
-    <img src="images\wolf-logo-circle.png" width="200px"/>
+    <img src="images\chronologic-square.png" width="200px"/>
 </p>
 
 ## **About**
@@ -26,7 +26,7 @@
 - Type `git clone` followed by the url you copied earlier.
 
 ```sh
-$ git clone https://github.com/ChronoLogic12/bookmarks.git
+$ git clone https://github.com/ChronoLogic12/ms-portfolio-site.git
 ```
 
 - Press enter to create your cloned repository.
