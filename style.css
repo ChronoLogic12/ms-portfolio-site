@@ -224,6 +224,15 @@ header {
 	background-position: center;
 }
 
+#tippy {
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/tippy.webp);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center;
+}
+
 /* media queries */
 
 @media only screen and (max-width: 550px) {
